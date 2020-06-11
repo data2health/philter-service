@@ -6,6 +6,9 @@ from swagger_server.models.pet import Pet  # noqa: E501
 from swagger_server import util
 
 from philter_ucsf.philter import Philter
+import nltk
+nltk.download('averaged_perceptron_tagger')
+
 import uuid
 import os
 import shutil
