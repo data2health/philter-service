@@ -1,5 +1,7 @@
 FROM python:3-alpine
 
+RUN apk --update add --no-cache g++
+
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
