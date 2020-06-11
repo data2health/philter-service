@@ -6,7 +6,7 @@ from swagger_server.models.pet import Pet  # noqa: E501
 from swagger_server import util
 
 
-def add_pet(body):  # noqa: E501
+def deid(body):  # noqa: E501
     """Add a new pet to the store
 
      # noqa: E501
@@ -18,7 +18,7 @@ def add_pet(body):  # noqa: E501
     """
     if connexion.request.is_json:
         body = Pet.from_dict(connexion.request.get_json())  # noqa: E501
-    return 'do some magic!'
+    return 'do some magic2!'
 
 
 def delete_pet(petId, api_key=None):  # noqa: E501
