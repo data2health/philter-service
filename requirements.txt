@@ -3,4 +3,4 @@ python_dateutil == 2.6.0
 setuptools >= 21.0.0
 philter-ucsf==1.0.3
 nltk==3.5
-numpy==1.18.5
+numpy==1.22.0
