@@ -2,5 +2,5 @@ connexion[swagger-ui] == 2.6.0
 python_dateutil == 2.6.0
 setuptools >= 21.0.0
 philter-ucsf==1.0.3
-nltk==3.5
+nltk==3.9
 numpy==1.18.5
